@@ -3,6 +3,7 @@ import styles from "./Button.module.css";
 
 interface Button {
   children: string;
+  disabled?: boolean;
 }
 
 const Button = ({ children, ...props }: Button) => {
